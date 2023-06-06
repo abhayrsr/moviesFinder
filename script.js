@@ -34,6 +34,7 @@ function displayMovies(movies){
         main.appendChild(moviesElement);
     })
 }
+
 function getClassesByRating(rating){
     if(rating >= 8){
         return 'green'
@@ -43,6 +44,7 @@ function getClassesByRating(rating){
         return 'red'
     }
 }
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     searchValue = search.value;
