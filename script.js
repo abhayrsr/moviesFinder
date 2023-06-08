@@ -11,7 +11,7 @@ async function getMovies(url){
     const res =  await fetch(url);
     const data = await res.json();
     displayMovies(data.results);
-    console.log(data.results);
+    // console.log(data.results);
 }
 
 function displayMovies(movies){
