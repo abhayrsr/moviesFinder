@@ -1,6 +1,6 @@
 const apiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=b8f81ed3537c08aeec4c7063ef1492d5`;
 const imgPath = `https://image.tmdb.org/t/p/w1280`;
-const searchUrl = `https://api.themoviedb.org/3/search/movie?api_key=b8f81ed3537c08aeec4c7063ef1492d5`;
+const searchUrl = `https://api.themoviedb.org/3/search/movie?api_key=b8f81ed3537c08aeec4c7063ef1492d5&query=`;
 
 const form = document.getElementById('form');
 const search = document.getElementById('search');
